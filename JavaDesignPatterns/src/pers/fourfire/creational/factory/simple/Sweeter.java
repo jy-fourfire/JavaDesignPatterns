@@ -13,6 +13,10 @@ package pers.fourfire.creational.factory.simple;
  */
 public class Sweeter implements ISell {
 
+	public Sweeter() {
+		System.out.println("init Sweeter~");
+	}
+	
 	@Override
 	public String Sell() {
 		return "拿好,糖果~";

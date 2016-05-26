@@ -13,6 +13,10 @@ package pers.fourfire.creational.factory.simple;
  */
 public class FishSeller implements ISell {
 
+	public FishSeller() {
+		System.out.println("init FishSeller~");
+	}
+
 	@Override
 	public String Sell() {
 		return "客官,你的鱼摆摆~";

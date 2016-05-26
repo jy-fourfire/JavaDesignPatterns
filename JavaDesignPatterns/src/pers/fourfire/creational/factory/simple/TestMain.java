@@ -13,6 +13,9 @@ package pers.fourfire.creational.factory.simple;
  */
 public class TestMain {
 
+	/**
+	 * 普通工厂模式，就是建立一个工厂类，对实现了同一接口的一些类进行实例的创建
+	 */
 	public static void main(String[] args) {
 		SellFactory factory = new SellFactory();
 		ISell seller = factory.sell("fish");
