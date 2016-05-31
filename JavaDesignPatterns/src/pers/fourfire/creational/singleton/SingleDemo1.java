@@ -29,6 +29,14 @@ public class SingleDemo1 {
 		return instance;
 	}
 
+	// /**加上synchronized,影响效率*/
+	// public static synchronized SingleDemo1 getInstance() {
+	// if (instance == null) {
+	// instance = new SingleDemo1();
+	// }
+	// return instance;
+	// }
+
 	/**
 	 * 这个案例的问题,可以在SingleDemo1Test 看,
 	 * 当在多线程的情况下,不能保证只创建一次
